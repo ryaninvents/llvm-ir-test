@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /root
+llc hello.ll -o hello.s
+cc hello.s -o hello
